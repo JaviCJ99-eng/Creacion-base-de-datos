@@ -1,0 +1,40 @@
+Vamos a crear un formulario con las siguientes especificaciones
+
+Voy a describir las posiciones de los elementos del formulario como filas , columnas y contenedores.
+En la 1ra fila, el titulo "LA FAVORITA"
+En la 2da fila, son 4 columnas y cada columna 1 contenedor. 
+- En el 1er contenedor va 2 filas
+  -1ra fila el titulo "NOMBRE DEL LOCAL",
+  -2da fila es la caja de texto donde el usuario ingresa la informacion.
+- En el 2do contenedor va 2 filas
+  -1ra fila el titulo "FORMATO",
+  -2da fila es la caja de texto
+- En el 3er contenedor va 2 filas
+  -1ra fila el titulo "ZONA",
+  -2da fila es la caja de texto
+- En el 4 contenedor esta dividido en 3 columnas para la fecha, donde los titulos serian: "DIA", "FECHA", "AÑO" con si respectivas cajas de texto debajo de los titulos.
+En la 3ra fila seran 2 columnas 
+- La 1ra columna sera un cuadro de texto que abarcara el ancho de las columnas 1, 2, 3 de la anterior fila
+- La 2da columna sera un espacio para colocar un calendario dinamico, donde se escoge la fecha y se reflejara en los anterios campos de FECHA
+En la 4 fila seran 3 contenedores
+- En el 1er contenedor seran 3 filas:
+  - En la 1 fila sera el titulo "UBICACIÓN ALARMA"
+  - En la 2da fila sera una caja de texto donde se ingresa informacion el usuario y ademas en la parte izquierda de esta fila un boton con el signo "+"
+  - En la 3ra fila sera una caja de texto mas alargada en forma vertical, donde se mostrara los datos que coinciden con lo ingresado por el usuario.
+- En el 2do contenedor seran 3 filas:
+  - En la 1 fila sera el titulo "NOTIFICACIÓN DE ALARMA"
+  - En la 2da fila sera una caja de texto donde se ingresa informacion el usuario
+  - En la 3ra fila sera una caja de texto mas alargada en forma vertical, donde se mostrara los datos que coinciden con lo ingresado por el usuario.
+- En el 3er contenedor seran 3 filas:
+  - En la 1 fila sera el titulo "RESPUESTA DE NOTIFICACIÓN"
+  - En la 2da fila sera una caja de texto donde se ingresa informacion el usuario
+  - En la 3ra fila sera una caja de texto mas alargada en forma vertical, donde se mostrara los datos que coinciden con lo ingresado por el usuario.
+En la 5 fila es un contendor, dentro del contendor son 3 columnas con contendi parecido
+- En la 1ra columna son 2 filas , 1ra fila es titulo "HORA NOTIFI.", 2da fila es cuadro de texto
+- En la 2da columna son 2 filas , 1ra fila es titulo "HORA INICIO", 2da fila es cuadro de texto
+- En la 3ra columna son 2 filas , 1ra fila es titulo "HORA FIN", 2da fila es cuadro de texto
+En la 6ta fila van 2 botones centralizados 1 al lado del otro
+- 1er boton tiene titulo "INGRESAR NOTIFICACION"
+- 2do boton tiene titulo "LIMPIAR"
+
+Todos los layouts de titulos deben tener el mismo ancho que su contenedor para que este centralizado, es decir centralizar titulo y cuadro de texto.

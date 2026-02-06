@@ -3,6 +3,7 @@ from . import correcion_cambio as cc
 
 
 def nombres_en_Mayus(data):
+    data = data.replace( "(", " (" ).replace( "  ", " " )
     cod = ["LT","Lt","MT","Mt","BT","Bt"]
     for i in cod:
         if i in data[0:5]:
